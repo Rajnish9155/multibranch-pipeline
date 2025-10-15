@@ -1,0 +1,121 @@
+ 
+/* css reset */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('gym.jpg');
+    color: white;
+}
+
+
+
+.left {
+    position: absolute;
+    left: 35px;
+    top: 20px;
+    display: inline-block;
+}
+
+.left div {
+    line-height: 17px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 23%;
+    margin: 25px auto;
+
+}
+
+.right {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    display: inline-block;
+    /*  */
+}
+
+.btn {
+    padding: 2px;
+    background-color: transparent;
+    color: white;
+    margin: 0px 2px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+    text-decoration: underline;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+    font-style: italic;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: rgb(6, 22, 238);
+}
+
+.left img {
+    width: 100px;
+    height: 80px;
+}
+
+.container {
+    border: 2px solid;
+    margin: 20px 880px;
+    padding: 45px 50px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    height: 278px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 330px;
+    margin: 4px auto;
+    padding: 8px;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 100px;
+    margin: auto;
+    height: 40px;
+
+}
+ 
