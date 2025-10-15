@@ -10,10 +10,10 @@ pipeline {
      
         stage('sprint1') { 
             steps { 
-               sh 'echo "This is Sprint1 branch and file updated."'
+               sh 'echo "This is Sprint1 branch and file updated. sprint1 is now live"'
             }
         }
-
+     
         stage("hotfix") { 
              steps { 
                 sh 'echo "This is hotfix branch"'
