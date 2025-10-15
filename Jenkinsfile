@@ -16,7 +16,7 @@ pipeline {
 
         stage("hotfix") { 
              steps { 
-                sh 'echo "This is hotfix branch is now pushed to GitHub..."'
+                sh 'echo "This is hotfix branch is now pushed to GitHub... now code utomatically run in jenkins"'
             }
         }  
     }
